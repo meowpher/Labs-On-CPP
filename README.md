@@ -1,59 +1,75 @@
 # C++ Programming Lab Experiments 🚀
 
-A collection of C++ programs and lab experiments demonstrating core programming concepts, including Object-Oriented Programming (OOP), recursion, and standard algorithms.
+A comprehensive collection of C++ programs and lab experiments demonstrating core programming concepts, from basic logic to advanced Object-Oriented Programming (OOP), operator overloading, and inheritance.
 
 ![Language](https://img.shields.io/badge/Language-C++-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Active-green.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## 📂 Repository Contents
+---
 
-This repository contains solutions for various problem statements, organized by concept:
+## 📂 Laboratory Breakdown
 
-### 1. Basic Algorithms & Recursion
-* **Fibonacci Series:** Generating series using recursive logic.
-* **Mathematical Operations:** Calculating Square roots, Ceil, and Rounding using `<cmath>`.
+This repository is organized into distinct Lab folders, each focusing on specific technical milestones in C++ development.
 
-### 2. Modular Programming
-* **Inline Functions:** Optimizing calculations (e.g., Perimeter of a Circle).
-* **Function Overloading:**
-    * Area calculators (Square, Circle, Rectangle).
-    * Math utilities (Power, Summation, Multiplication).
+| Lab | Focus Area | Key Concepts |
+| :--- | :--- | :--- |
+| **Lab 01** | Fundamentals | Basic Syntax, Variables, Swapping Logic |
+| **Lab 02** | Control Flow | Loops, Conditional Statements, Sum of Digits |
+| **Lab 03** | Functions & Logic | Primality, Salary Logic, Character Classification |
+| **Lab 04** | Advanced Functions | Recursion (Fibonacci), Memory awareness |
+| **Lab 05** | Data Structures | Array Manipulation, Search/Sort algorithms |
+| **Lab 07** | Object Oriented (I) | Classes, Objects, Data Encapsulation |
+| **Lab 08** | Object Oriented (II) | Member Functions, Unit Conversions (Distance) |
+| **Lab 09** | Object Management | Constructors, Destructors, Static Data Members |
+| **Lab 10** | Operator Overloading | Unary & Binary Overloading (+, -, *, etc.) |
+| **Lab 11** | Friend Mechanisms | Friend Functions, Specialized Operator Overloading |
+| **Lab 12** | Inheritance | Base/Derived classes, Access Specifiers, Hierarchies |
 
-### 3. User Interface
-* **Menu-Driven Programs:** Interactive console applications using `switch-case` structures.
+---
 
-### 4. Lab 03: Functions and Logic
-* **Character Classifier:** Identification of character types (Uppercase, Lowercase, Digit, Special Symbol).
-* **Maximum Finder:** Finding the largest among three numbers using functional prototypes.
-* **Salary Calculator:** Calculating Gross and Net Salary based on HRA, DA, TA, PT, and PF.
-* **Prime Checker:** Optimized check for prime numbers using functions.
-* **Menu-Driven Utility:** Interactive check for odd/even, divisibility (3 and 5), and positive/negative status.
+## 🌟 Key Technical Highlights
 
-## 🛠️ Prerequisites
+### 🛠️ Modular Programming
+Utilizing specific function prototypes to create reusable and clean code. For example, calculating complex salary structures or mathematical primality through isolated logic blocks.
 
-To run these programs, you need a C++ compiler installed on your system.
-* **GCC/G++** (MinGW for Windows, standard on Linux/macOS)
-* Any IDE (VS Code, Dev-C++, Code::Blocks, or CLion)
+### 🧩 Object-Oriented Design
+Implementation of robust class architectures. This includes encapsulation of real-world entities (like `Product` or `Employee`) and managing their lifecycles through constructors and destructors.
+
+### ⚡ Operator Overloading
+Extending C++ built-in operator functionality to handle user-defined objects, enhancing code readability and intuitive object interaction.
+
+### 🧬 Inheritance Hierarchies
+Demonstrating code reusability through Single and Multiple Inheritance, allowing specialized classes to build upon existing foundations.
+
+---
 
 ## 💻 How to Run
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/meowpher/Labs-On-CPP.git
-    cd Labs-On-CPP
-    ```
+### 1. Prerequisites
+Ensure you have a C++ compiler installed:
+*   **Linux/macOS**: `g++` (available via `sudo apt install build-essential` or Xcode)
+*   **Windows**: MinGW or MSVC
 
-2.  **Compile a file:**
-    ```bash
-    g++ filename.cpp -o output
-    ```
+### 2. Compilation
+To compile any specific task (e.g., Lab 03, Task 1):
+```bash
+g++ Lab-03/task1.cpp -o task1
+```
 
-3.  **Execute the program:**
-    * **Windows:** `output.exe`
-    * **Linux/Mac:** `./output`
+### 3. Execution
+```bash
+./task1
+```
+
+---
 
 ## 🤝 Contributing
-Feel free to fork this repository and submit pull requests if you find bugs or want to optimize the solutions.
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/meowpher/Labs-On-CPP/issues).
 
 ## 👤 Author
-* **Taha Mustafa Piplodwala**
+**Taha Mustafa Piplodwala**
+*   GitHub: [@meowpher](https://github.com/meowpher)
+
+---
+*Generated with ❤️ by Antigravity*
