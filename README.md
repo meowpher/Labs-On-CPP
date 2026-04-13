@@ -70,6 +70,3 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## 👤 Author
 **Taha Mustafa Piplodwala**
 *   GitHub: [@meowpher](https://github.com/meowpher)
-
----
-*Generated with ❤️ by Antigravity*
