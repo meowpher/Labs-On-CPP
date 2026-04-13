@@ -22,6 +22,13 @@ This repository contains solutions for various problem statements, organized by 
 ### 3. User Interface
 * **Menu-Driven Programs:** Interactive console applications using `switch-case` structures.
 
+### 4. Lab 03: Functions and Logic
+* **Character Classifier:** Identification of character types (Uppercase, Lowercase, Digit, Special Symbol).
+* **Maximum Finder:** Finding the largest among three numbers using functional prototypes.
+* **Salary Calculator:** Calculating Gross and Net Salary based on HRA, DA, TA, PT, and PF.
+* **Prime Checker:** Optimized check for prime numbers using functions.
+* **Menu-Driven Utility:** Interactive check for odd/even, divisibility (3 and 5), and positive/negative status.
+
 ## 🛠️ Prerequisites
 
 To run these programs, you need a C++ compiler installed on your system.
@@ -32,8 +39,8 @@ To run these programs, you need a C++ compiler installed on your system.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/cpp-labs.git](https://github.com/your-username/cpp-labs.git)
-    cd cpp-labs
+    git clone https://github.com/meowpher/Labs-On-CPP.git
+    cd Labs-On-CPP
     ```
 
 2.  **Compile a file:**
@@ -49,5 +56,4 @@ To run these programs, you need a C++ compiler installed on your system.
 Feel free to fork this repository and submit pull requests if you find bugs or want to optimize the solutions.
 
 ## 👤 Author
-* **[Your Name]**
-* Student ID: [Your ID]
+* **Taha Mustafa Piplodwala**
